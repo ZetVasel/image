@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../Css/form.css">
+
+
+</head>
+<body>
+
+<form action="../action.php" method="get" class="q"  onsubmit="return check();" name="form">
+    <input type="text" placeholder="enter width" id="width" name="width">
+    <input type="text" placeholder="enter height" id="height" name="height">
+    <input type="text" placeholder="enter radius" id="radius" name="radius">
+
+    <select name="circles" >
+        <option></option>
+        <option value=5>5circles</option>
+        <option value=10>10circles</option>
+        <option value=20>20circles</option>
+        <option value=50>50circles</option>
+    </select>
+    <br>
+    <button class="btn" type="submit">Apply</button>
+</form>
+<script src="../JS/checkInput.js"></script>
+<div id="sq">
+<img   src="../image.jpg" id="sq1" >
+</div>
+</body>
+</html>
